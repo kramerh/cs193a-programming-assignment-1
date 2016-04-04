@@ -42,8 +42,7 @@ public class MainOddsActivity extends AppCompatActivity {
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
-
-
+    
     public void playOdds(View view) {
         NumberPicker maxOdds = (NumberPicker) findViewById(R.id.numberPicker);
         assert maxOdds != null;
